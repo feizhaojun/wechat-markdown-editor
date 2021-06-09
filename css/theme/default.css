@@ -4,9 +4,12 @@
   设置 code 标签需要用到 .paper .code-inline
 */
 .paper {
-  padding: 1.6rem;
-  color: #333;
-  font-size: 14px
+  padding: 0 8px;
+  color: rgb(74, 74, 74);
+  font-size: 15px;
+  font-family: PingfangSC-light;
+  line-height: 1.75;
+  
 }
 .paper * {
   box-sizing: border-box
@@ -26,20 +29,7 @@
   background: 0 0
 }
 .paper p {
-  margin: 10px 0;
-  line-height: 1.7
-}
-.paper h1 {
-  font-size: 36px
-}
-.paper h2 {
-  font-size: 30px
-}
-.paper h3 {
-  font-size: 24px
-}
-.paper h4 {
-  font-size: 18px
+  margin: 15px 0;
 }
 .paper h5 {
   font-size: 14px
@@ -49,20 +39,35 @@
 }
 .paper h1,
 .paper h2,
-.paper h3 {
-  margin-top: 20px;
-  margin-bottom: 10px
-}
-.paper h1,
-.paper h2,
 .paper h3,
 .paper h4,
 .paper h5,
 .paper h6 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit
+  font-weight: 400;
+}
+.paper h1 {
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 137, 108);
+  display: inline-block;
+  color: #fff;
+}
+.paper h2 {
+  font-size: 18px;
+  color: rgb(0, 137, 108);
+}
+.paper h3 {
+  font-size: 15px;
+  color: rgb(0, 137, 108);
+  font-weight: 600;
+}
+.paper h4 {
+  font-size: 15px;
+  color: rgb(0, 137, 108);
 }
 .paper blockquote {
   padding: 10px 20px;
@@ -72,17 +77,16 @@
 }
 .paper .code-inline {
   padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px
+  font-size: 14px;
+  color: rgb(0, 137, 108);
+  background-color: rgb(242, 242, 242);
+  border-radius: 4px;
 }
 .paper .code-block {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
   font-size: 13px;
-  line-height: 1.42857143;
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
@@ -106,7 +110,6 @@
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
   padding: 8px;
-  line-height: 1.42857143;
   text-align: left;
   word-break: normal
 }
@@ -115,7 +118,6 @@
 }
 .paper td {
   padding: 8px;
-  line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd
 }
@@ -135,7 +137,6 @@
 }
 .paper dd,
 .paper dt {
-  line-height: 1.42857143
 }
 .paper abbr[title] {
   cursor: help;
