@@ -29,7 +29,7 @@
   background: 0 0
 }
 .paper p {
-  margin: 15px 0;
+  margin: 0 15px;
 }
 .paper h5 {
   font-size: 14px
@@ -44,6 +44,7 @@
 .paper h5,
 .paper h6 {
   font-weight: 400;
+  margin: 15px 0;
 }
 .paper h1 {
   padding-right: 0.7em;
@@ -164,7 +165,7 @@
   padding-left: 2em
 }
 .paper ol,
-.paper ul {
-  margin-top: -10px;
-  margin-bottom: 10px
+.paper ul,
+.paper pre {
+  margin: 15px 0;
 }
